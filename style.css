@@ -108,7 +108,7 @@ body {
     top: 28%;
 }
 
-.img-bear {
+/* .img-bear {
     background-image: url(./image/Голова.svg);
     background-size: cover;
     width: 737px;
@@ -116,7 +116,7 @@ body {
     margin: 0 auto;
     z-index: -1;
     
-}
+} */
 
 .green-screen {
     background-image: url(./image/Rectangle\ green.svg);
@@ -137,7 +137,7 @@ body {
     max-width: 870px;
 }
 
-.content__img-squary {
+/* .content__img-squary {
     background-image: url('./image/Жёлтый\ квадрат.svg');
     width: 105px;
     height: 105px;
@@ -145,7 +145,7 @@ body {
     position: absolute;
     top: 69%;
     right: 6.5%;
-}
+} */
 
 .third-screen {
     position: relative;
@@ -162,7 +162,7 @@ body {
     color: #3E3E3E;
 }
 
-.content__img-triangle {
+/* .content__img-triangle {
     position: absolute;
     background-image: url('./image/Розовый\ прямоугольник.svg');
     background-repeat: no-repeat;
@@ -170,7 +170,7 @@ body {
     height: 110px;
     top: 7%;
     left: 6.5%;
-}
+} */
 
 .content__button {
     width: 355px;
