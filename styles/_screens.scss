@@ -1,0 +1,52 @@
+.first-screen {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 0;
+    color: #3E3E3E;
+    position: relative;
+    min-height: 800px;
+    max-width: 1110px;
+}
+
+.second-screen {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 0;
+    position: relative;
+    color: #fff;
+    background-color: #1AA179;
+}
+
+.third-screen {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-left: 40%;
+    margin-top: 60px;
+}
+
+.button {
+    margin-top: 100px;
+    background-color: #7749F8;
+    border: none;
+    font-size: 36px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-family: 'LogoAndButton';
+    border-radius: 8px;
+    height: 90px;
+
+    &-text {
+        color: #fff;
+    }
+
+    &_header {
+        width: 450px;
+    }
+    
+    &_content{
+        width: 370px;
+        margin-bottom: 150px;
+    }
+}
+
