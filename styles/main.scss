@@ -11,10 +11,8 @@ body {
 
 .page {
     min-width: 320px;
-    /* width: 100%; */
     max-width: 1980px;
     margin: 0 auto;
-    /* font-family: 'Montserrat', Arial, Helvetica, sans-serif; */
 }
 
 a {
@@ -40,15 +38,10 @@ a {
     font-family: 'LogoAndButton';
 }
 
-
-
 .social-network-img {
     width: 50px;
     height: 50px;
-    /* margin: 10px auto; */
 }
-
-
 
 .info {
     max-width: 580px;
@@ -92,7 +85,6 @@ a {
     font-family: 'LogoAndButton';
 }
 
-
 .content-info {
     margin: 0 auto 100px;
     font-size: 24px;
@@ -106,18 +98,6 @@ span {
     font-family: 'TitleAndSpan';
 }
 
-/* .content__img-squary {
-    background-image: url('./image/Жёлтый\ квадрат.svg');
-    width: 105px;
-    height: 105px;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 69%;
-    right: 6.5%;
-} */
-
-
-
 .content__final-text {
     font-size: 24px;
     line-height: 1.4;
@@ -127,18 +107,6 @@ span {
     color: #3E3E3E;
     font-family: 'MainFont';
 }
-
-/* .content__img-triangle {
-    position: absolute;
-    background-image: url('./image/Розовый\ прямоугольник.svg');
-    background-repeat: no-repeat;
-    width: 110px;
-    height: 110px;
-    top: 7%;
-    left: 6.5%;
-} */
-
-
 
 .footer {
     margin: 0 auto;
