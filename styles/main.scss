@@ -2,6 +2,10 @@
 
 @import "./header";
 @import "./screens";
+@import "./logo";
+@import "./navigation";
+@import "./social-network";
+@import "./_footer.scss";
 
 
 body {
@@ -17,30 +21,6 @@ body {
 
 a {
     text-decoration: none;
-}
-
-.navigation {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1280px;
-    min-width: 320px;
-    height: 75px;
-    margin: 0 auto;
-}
-
-.logo {
-    color: #fff;
-    font-size: 24px;
-    line-height: 20px;
-    font-weight: 700;
-    letter-spacing: 3px;
-    font-family: 'LogoAndButton';
-}
-
-.social-network-img {
-    width: 50px;
-    height: 50px;
 }
 
 .info {
@@ -106,18 +86,4 @@ a {
     max-width: 630px;
     color: #3E3E3E;
     font-family: 'MainFont';
-}
-
-.footer {
-    margin: 0 auto;
-    background-color: #1AA179;
-    max-width: 100%;
-}
-
-.footer__social-network {
-    margin-left: 85px;
-}
-
-.logo-footer {
-    margin-right: 85px;
 }
