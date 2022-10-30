@@ -1,7 +1,6 @@
 @charset "UTF-8";
 @import url(../fonts/montserrat.css);
 
-
 .header {
   margin: 0 auto;
   background-color: #1AA179;
@@ -155,7 +154,7 @@ a {
   font-family: "MainFont";
 }
 
-span {
+.span {
   font-family: "TitleAndSpan";
 }
 
@@ -181,4 +180,4 @@ span {
 
 .logo-footer {
   margin-right: 85px;
-}
+}/*# sourceMappingURL=main.css.map */
