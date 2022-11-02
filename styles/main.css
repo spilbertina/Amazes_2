@@ -14,8 +14,37 @@
   min-height: 800px;
   max-width: 1110px;
 }
+.main__info {
+  max-width: 580px;
+  max-height: 370px;
+  margin-top: 100px;
+}
+.main__title {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 600;
+  font-family: "LogoAndButton";
+}
+.main__subtitle {
+  font-size: 28px;
+  font-weight: 100;
+  font-family: "MainFont";
+}
+.main__illustration {
+  background-image: url(../image/ColorLogo.png);
+  background-size: cover;
+  width: 460px;
+  height: 445px;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  z-index: -1;
+  position: absolute;
+  right: 0;
+  top: 100px;
+}
 
-.second-screen {
+.skills {
   display: flex;
   flex-direction: column;
   margin: 0 auto 0;
@@ -23,35 +52,40 @@
   color: #fff;
   background-color: #1AA179;
 }
+.skills__title {
+  margin: 100px auto 50px;
+  letter-spacing: 1.5px;
+  font-size: 36px;
+  line-height: 1.4;
+  font-weight: 600;
+  font-family: "LogoAndButton";
+}
+.skills__info {
+  margin: 0 auto 100px;
+  max-width: 870px;
+  font-size: 24px;
+  line-height: 1.4;
+  font-weight: 200;
+  font-family: "MainFont";
+}
+.skills__span {
+  font-family: "TitleAndSpan";
+}
 
-.third-screen {
+.motivation {
   max-width: 1280px;
   margin: 0 auto;
   padding-left: 40%;
   margin-top: 60px;
 }
-
-.button {
-  margin-top: 100px;
-  background-color: #7749F8;
-  border: none;
-  font-size: 36px;
-  line-height: 20px;
-  font-weight: 700;
-  letter-spacing: 5px;
-  font-family: "LogoAndButton";
-  border-radius: 8px;
-  height: 90px;
-}
-.button-text {
-  color: #fff;
-}
-.button_header {
-  width: 450px;
-}
-.button_content {
-  width: 370px;
-  margin-bottom: 150px;
+.motivation__text {
+  font-size: 24px;
+  line-height: 1.4;
+  font-weight: 200;
+  letter-spacing: 1px;
+  max-width: 630px;
+  color: #3E3E3E;
+  font-family: "MainFont";
 }
 
 .logo {
@@ -100,6 +134,41 @@
   max-width: 100%;
 }
 
+.button {
+  margin-top: 100px;
+  background-color: #7749F8;
+  border: none;
+  font-size: 36px;
+  line-height: 20px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  font-family: "LogoAndButton";
+  border-radius: 8px;
+  height: 90px;
+}
+.button__text {
+  color: #fff;
+}
+.button__main {
+  width: 450px;
+}
+.button__motivation {
+  width: 370px;
+  margin-bottom: 150px;
+}
+
+.rad-scuare {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.green-scuare {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -113,69 +182,4 @@ body {
 
 a {
   text-decoration: none;
-}
-
-.info {
-  max-width: 580px;
-  max-height: 370px;
-  margin-top: 100px;
-}
-
-.title {
-  text-transform: uppercase;
-  font-size: 30px;
-  font-weight: 600;
-  margin: 0;
-  font-family: "LogoAndButton";
-}
-
-.subtitle {
-  font-size: 28px;
-  font-weight: 100;
-  font-family: "MainFont";
-}
-
-.header__main-illustration {
-  background-image: url(../image/ColorLogo.png);
-  background-size: cover;
-  width: 460px;
-  height: 445px;
-  box-sizing: border-box;
-  background-repeat: no-repeat;
-  z-index: -1;
-  position: absolute;
-  right: 0;
-  top: 100px;
-}
-
-.content__title {
-  margin: 100px auto 50px;
-  letter-spacing: 1.5px;
-  font-size: 36px;
-  line-height: 1.4;
-  font-weight: 600;
-  font-family: "LogoAndButton";
-}
-
-.content-info {
-  margin: 0 auto 100px;
-  font-size: 24px;
-  line-height: 1.4;
-  font-weight: 200;
-  max-width: 870px;
-  font-family: "MainFont";
-}
-
-.span {
-  font-family: "TitleAndSpan";
-}
-
-.content__final-text {
-  font-size: 24px;
-  line-height: 1.4;
-  font-weight: 200;
-  letter-spacing: 1px;
-  max-width: 630px;
-  color: #3E3E3E;
-  font-family: "MainFont";
 }/*# sourceMappingURL=main.css.map */
