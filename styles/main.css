@@ -24,12 +24,12 @@
   margin: 0;
   font-size: 36px;
   font-weight: 600;
-  font-family: "LogoAndButton";
+  font-family: "semiboldText";
 }
 .main__subtitle {
   font-size: 28px;
   font-weight: 100;
-  font-family: "MainFont";
+  font-family: "normalText";
 }
 .main__illustration {
   background-image: url(../image/ColorLogo.png);
@@ -58,7 +58,7 @@
   font-size: 36px;
   line-height: 1.4;
   font-weight: 600;
-  font-family: "LogoAndButton";
+  font-family: "semiboldText";
 }
 .skills__info {
   margin: 0 auto 100px;
@@ -66,10 +66,10 @@
   font-size: 24px;
   line-height: 1.4;
   font-weight: 200;
-  font-family: "MainFont";
+  font-family: "normalText";
 }
 .skills__span {
-  font-family: "TitleAndSpan";
+  font-family: "boldText";
 }
 
 .motivation {
@@ -85,7 +85,7 @@
   letter-spacing: 1px;
   max-width: 630px;
   color: #3E3E3E;
-  font-family: "MainFont";
+  font-family: "normalText";
 }
 
 .logo {
@@ -94,7 +94,7 @@
   line-height: 20px;
   font-weight: 700;
   letter-spacing: 3px;
-  font-family: "LogoAndButton";
+  font-family: "semiboldText";
 }
 
 .logo__header {
@@ -142,7 +142,7 @@
   line-height: 20px;
   font-weight: 700;
   letter-spacing: 5px;
-  font-family: "LogoAndButton";
+  font-family: "semiboldText";
   border-radius: 8px;
   height: 90px;
 }
