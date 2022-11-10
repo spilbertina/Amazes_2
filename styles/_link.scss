@@ -1,0 +1,17 @@
+.link {
+    text-decoration: none;
+
+    &__logo {
+        color: hotpink;
+        font-size: 24px;
+        line-height: 20px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        font-family: 'semiboldText';
+        margin-left: 85px;
+    }
+
+    &__social {
+        margin-right: 85px;
+    }
+}

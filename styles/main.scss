@@ -11,9 +11,10 @@
 @import "./buttons";
 @import "./pages/main";
 @import "./pages/amazes_select";
+@import "./link";
 
 
-body {
+.body {
     margin: 0;
     padding: 0;
 }
@@ -22,8 +23,4 @@ body {
     min-width: 320px;
     max-width: 1980px;
     margin: 0 auto;
-}
-
-a {
-    text-decoration: none;
 }

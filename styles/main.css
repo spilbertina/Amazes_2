@@ -88,23 +88,6 @@
   font-family: "normalText";
 }
 
-.logo {
-  color: #fff;
-  font-size: 24px;
-  line-height: 20px;
-  font-weight: 700;
-  letter-spacing: 3px;
-  font-family: "semiboldText";
-}
-
-.logo__header {
-  margin-left: 85px;
-}
-
-.logo__footer {
-  margin-right: 85px;
-}
-
 .navigation {
   display: flex;
   align-items: center;
@@ -169,7 +152,20 @@
   background-color: green;
 }
 
-body {
+.link {
+  text-decoration: none;
+}
+.link__logo {
+  color: #fff;
+  font-size: 24px;
+  line-height: 20px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-family: "semiboldText";
+  margin-left: 85px;
+}
+
+.body {
   margin: 0;
   padding: 0;
 }
@@ -178,8 +174,4 @@ body {
   min-width: 320px;
   max-width: 1980px;
   margin: 0 auto;
-}
-
-a {
-  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
