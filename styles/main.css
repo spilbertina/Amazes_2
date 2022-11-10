@@ -5,7 +5,7 @@
   max-width: 100%;
 }
 
-.main {
+.home {
   display: flex;
   justify-content: space-between;
   margin: 0 auto 0;
@@ -14,24 +14,18 @@
   min-height: 800px;
   max-width: 1110px;
 }
-.main__info {
+.home__column {
   max-width: 580px;
-  max-height: 370px;
   margin-top: 100px;
+  margin-bottom: 150px;
 }
-.main__title {
+.home__title {
   text-transform: uppercase;
   margin: 0;
-  font-size: 36px;
-  font-weight: 600;
+  font-size: 30px;
   font-family: "semiboldText";
 }
-.main__subtitle {
-  font-size: 28px;
-  font-weight: 100;
-  font-family: "normalText";
-}
-.main__illustration {
+.home__illustration {
   background-image: url(../image/ColorLogo.png);
   background-size: cover;
   width: 460px;
@@ -55,7 +49,7 @@
 .skills__title {
   margin: 100px auto 50px;
   letter-spacing: 1.5px;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 1.4;
   font-weight: 600;
   font-family: "semiboldText";
@@ -63,9 +57,8 @@
 .skills__info {
   margin: 0 auto 100px;
   max-width: 870px;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 1.4;
-  font-weight: 200;
   font-family: "normalText";
 }
 .skills__span {
@@ -73,10 +66,9 @@
 }
 
 .motivation {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding-left: 40%;
-  margin-top: 60px;
+  max-width: 630px;
+  margin: 100px auto 100px;
+  padding-left: 25%;
 }
 .motivation__text {
   font-size: 24px;
@@ -85,6 +77,15 @@
   letter-spacing: 1px;
   max-width: 630px;
   color: #3E3E3E;
+  font-family: "normalText";
+}
+
+.paragraph {
+  font-size: 24px;
+  font-family: "normalText";
+}
+.paragraph_home {
+  font-size: 28px;
   font-family: "normalText";
 }
 
@@ -98,19 +99,6 @@
   margin: 0 auto;
 }
 
-.social-network__header {
-  margin-right: 85px;
-}
-
-.social-network__img {
-  width: 50px;
-  height: 50px;
-}
-
-.social-network__footer {
-  margin-left: 85px;
-}
-
 .footer {
   margin: 0 auto;
   background-color: #1AA179;
@@ -118,7 +106,6 @@
 }
 
 .button {
-  margin-top: 100px;
   background-color: #7749F8;
   border: none;
   font-size: 36px;
@@ -128,22 +115,15 @@
   font-family: "semiboldText";
   border-radius: 8px;
   height: 90px;
-}
-.button__text {
-  color: #fff;
-}
-.button__main {
   width: 450px;
 }
-.button__motivation {
-  width: 370px;
-  margin-bottom: 150px;
+
+.home .paragraph:last-of-type {
+  margin-bottom: 100px;
 }
 
-.rad-scuare {
-  width: 100px;
-  height: 100px;
-  background-color: red;
+.motivation .paragraph:last-of-type {
+  margin-bottom: 100px;
 }
 
 .green-scuare {
@@ -163,6 +143,16 @@
   letter-spacing: 3px;
   font-family: "semiboldText";
   margin-left: 85px;
+}
+.link__social {
+  margin-right: 85px;
+}
+.link__img_social {
+  width: 50px;
+  height: 50px;
+}
+.link__button {
+  color: #fff;
 }
 
 .body {

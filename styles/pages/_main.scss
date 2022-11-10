@@ -1,5 +1,11 @@
-.rad-scuare {
-    width: 100px;
-    height: 100px;
-    background-color: red;
+.home {
+    .paragraph:last-of-type {
+        margin-bottom: 100px;
+    }
+}
+
+.motivation {
+    .paragraph:last-of-type {
+        margin-bottom: 100px;
+    }
 }

@@ -1,5 +1,4 @@
 .button {
-    margin-top: 100px;
     background-color: $button_color;
     border: none;
     font-size: 36px;
@@ -9,17 +8,5 @@
     font-family: 'semiboldText';
     border-radius: 8px;
     height: 90px;
-
-    &__text {
-        color: #fff;
-    }
-
-    &__main {
-        width: 450px;
-    }
-    
-    &__motivation{
-        width: 370px;
-        margin-bottom: 150px;
-    }
+    width: 450px;
 }
