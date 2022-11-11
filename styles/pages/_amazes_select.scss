@@ -1,5 +1,7 @@
-.green-scuare {
-    width: 100px;
-    height: 100px;
-    background-color: green;
+.select {
+    color: $main_text_color;
+}
+
+.select__title {
+    @include font('semiboldText', 30px);
 }
