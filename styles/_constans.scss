@@ -5,3 +5,14 @@ $button_color: #7749F8;
     font-size: $size;
     font-family: $name;
 }
+
+@mixin size($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+@mixin headerFooter($margin, $background-color, $max-width) {
+    margin: $margin;
+    background-color: $background-color;
+    max-width: $max-width;
+}

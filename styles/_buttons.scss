@@ -1,12 +1,9 @@
 .button {
     background-color: $button_color;
     border: none;
-    font-size: 36px;
-    line-height: 20px;
-    font-weight: 700;
-    letter-spacing: 5px;
-    font-family: 'semiboldText';
+    letter-spacing: 2px;
     border-radius: 8px;
-    height: 90px;
-    width: 450px;
+    @include size(450px, 90px);
+    @include font('semiboldText', 36px);
+
 }

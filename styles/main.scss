@@ -19,6 +19,11 @@
 
 .page {
     min-width: 320px;
-    max-width: 1980px;
+    width: 100%;
     margin: 0 auto;
+}
+
+.content {
+    max-width: 100%;
+    @include font('normalText', 24px);
 }
