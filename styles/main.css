@@ -10,8 +10,6 @@
   justify-content: space-between;
   margin: 0 auto 0;
   color: #3E3E3E;
-  position: relative;
-  min-height: 800px;
   max-width: 1110px;
 }
 .home__column {
@@ -33,9 +31,7 @@
   box-sizing: border-box;
   background-repeat: no-repeat;
   z-index: -1;
-  position: absolute;
-  right: 0;
-  top: 100px;
+  margin-top: 100px;
 }
 
 .skills {
