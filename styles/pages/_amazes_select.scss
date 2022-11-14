@@ -1,7 +1,16 @@
 .select {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 0;
     color: $main_text_color;
-}
+    max-width: 1110px;
 
-.select__title {
-    @include font('semiboldText', 30px);
+    &__column {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    &__title {
+        @include font('semiboldText', 30px);
+    }
 }

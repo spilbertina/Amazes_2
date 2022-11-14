@@ -8,7 +8,7 @@
     }
 
     &__img_social {
-        @include size(50px, 50px);
+        @include boxSize(50px, 50px);
     }
 
     &__button {

@@ -3,11 +3,10 @@
 @import "./constans";
 
 @import "./header";
-@import "./content";
 @import "./navigation";
 @import "./footer";
 @import "./buttons";
-@import "./pages/main";
+@import "./pages/amazes_main";
 @import "./pages/amazes_select";
 @import "./link";
 
@@ -26,4 +25,8 @@
 .content {
     max-width: 100%;
     @include font('normalText', 24px);
+}
+
+.paragraph {
+    margin: 0 0 24px 0;
 }

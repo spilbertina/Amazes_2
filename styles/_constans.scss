@@ -7,9 +7,10 @@ $main_text_color: #3E3E3E;
     font-family: $name;
 }
 
-@mixin size($width, $height) {
+@mixin boxSize($width, $height) {
     height: $height;
     width: $width;
+    // background-color: $background-color; $background-color: transparent
 }
 
 @mixin headerFooter($margin, $background-color, $max-width) {
