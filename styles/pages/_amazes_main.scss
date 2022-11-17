@@ -1,15 +1,21 @@
 .home {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto 0;
-    color: $main_text_color;
-    max-width: 1110px;
+    margin: 100px 100px 150px;
+    // padding: 100px 100px 150px;
+    // max-width: 1100px;
+    display: grid;
+    grid-template-columns: minmax(auto, 580px) auto;
 
-    &__column {
-        max-width: 580px;
-        margin-top: 100px;
-        margin-bottom: 150px;
-    }
+    // display: flex;
+    // justify-content: space-between;
+    // margin: 0 auto 0;
+    // color: $main_text_color;
+    // max-width: 1110px;
+
+    // &__column {
+    //     max-width: 580px;
+    //     margin-top: 100px;
+    //     margin-bottom: 150px;
+    // }
 
     &__title {
         text-transform: uppercase;
@@ -18,12 +24,12 @@
     }
 
     &__illustration {
+        justify-self: end;
         background-image: url(../image/ColorLogo.png);
         background-size: cover;
-        @include boxSize(460px, 445px);
+        @include boxSize(499px, 484px);
         box-sizing: border-box;
         background-repeat: no-repeat;
-        margin-top: 100px;
     }
 
     .paragraph:last-of-type {
@@ -40,18 +46,18 @@
 .skills {
     display: flex;
     flex-direction: column;
-    margin: 0 auto 0;
-    position: relative;
+    align-items: center;
+    margin: 0 auto;
     color: #fff;
     background-color: $main_background_color;
+    padding: 100px 0 120px; 
 
     &__title {
-        margin: 100px auto 50px;
+        padding-bottom: 40px;
         @include font('semiboldText', 30px);
     }
 
     &__info {
-        margin: 0 auto 100px;
         max-width: 870px;
         line-height: 1.4;
     }
@@ -63,34 +69,23 @@
 }
 
 .motivation {
-    margin: 75px auto 100px;
-    max-width: 1100px;
-    display: flex;
-    justify-content: end;
+    // margin: 75px auto 100px;
+    padding: 75px 100px 100px; 
+    // max-width: $main_max-width;
+    display: grid;
+    grid-template-columns: auto minmax(auto, 627px);
+
+    &__wrap {
+        display: flex;
+        flex-direction: column;
+        grid-column: 2 / 3;
+    }
 
     &__text {
         line-height: 1.4;
         max-width: 630px;
         color: $main_text_color;
-        }
-
-    // margin: 75px auto 100px;
-    // max-width: 1100px;
-    // display: grid;
-    // place-items: center;
-    // grid-template-columns: auto minmax(auto, 627px);
-
-    // &__wrap {
-    //     display: flex;
-    //     flex-direction: column;
-    //     grid-column: 2 / 3;
-    // }
-
-    // &__text {
-    //     line-height: 1.4;
-    //     max-width: 630px;
-    //     color: $main_text_color;
-    // }
+    }
 
     .paragraph:last-of-type {
         margin-bottom: 100px;

@@ -1,21 +1,25 @@
 @import url(../fonts/montserrat.css);
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 320px;
+  height: 75px;
+  padding-left: 100px;
+  padding-right: 100px;
   margin: 0 auto;
   background-color: #1AA179;
   max-width: 100%;
 }
 
-.navigation {
+.footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1100px;
   min-width: 320px;
   height: 75px;
-  margin: 0 auto;
-}
-
-.footer {
+  padding-left: 100px;
+  padding-right: 100px;
   margin: 0 auto;
   background-color: #1AA179;
   max-width: 100%;
@@ -33,16 +37,9 @@
 }
 
 .home {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto 0;
-  color: #3E3E3E;
-  max-width: 1110px;
-}
-.home__column {
-  max-width: 580px;
-  margin-top: 100px;
-  margin-bottom: 150px;
+  margin: 100px 100px 150px;
+  display: grid;
+  grid-template-columns: minmax(auto, 580px) auto;
 }
 .home__title {
   text-transform: uppercase;
@@ -51,13 +48,13 @@
   font-family: "semiboldText";
 }
 .home__illustration {
+  justify-self: end;
   background-image: url(../image/ColorLogo.png);
   background-size: cover;
-  height: 445px;
-  width: 460px;
+  height: 484px;
+  width: 499px;
   box-sizing: border-box;
   background-repeat: no-repeat;
-  margin-top: 100px;
 }
 .home .paragraph:last-of-type {
   margin-bottom: 100px;
@@ -71,18 +68,18 @@
 .skills {
   display: flex;
   flex-direction: column;
-  margin: 0 auto 0;
-  position: relative;
+  align-items: center;
+  margin: 0 auto;
   color: #fff;
   background-color: #1AA179;
+  padding: 100px 0 120px;
 }
 .skills__title {
-  margin: 100px auto 50px;
+  padding-bottom: 40px;
   font-size: 30px;
   font-family: "semiboldText";
 }
 .skills__info {
-  margin: 0 auto 100px;
   max-width: 870px;
   line-height: 1.4;
 }
@@ -91,10 +88,14 @@
 }
 
 .motivation {
-  margin: 75px auto 100px;
-  max-width: 1100px;
+  padding: 75px 100px 100px;
+  display: grid;
+  grid-template-columns: auto minmax(auto, 627px);
+}
+.motivation__wrap {
   display: flex;
-  justify-content: end;
+  flex-direction: column;
+  grid-column: 2/3;
 }
 .motivation__text {
   line-height: 1.4;
@@ -144,14 +145,15 @@
 }
 
 .page {
+  font-size: 24px;
   min-width: 320px;
-  width: 100%;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
 .content {
-  max-width: 100%;
-  font-size: 24px;
+  margin: 0 auto;
+  font-size: 1em;
   font-family: "normalText";
 }
 
