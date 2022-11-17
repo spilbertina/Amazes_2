@@ -1,7 +1,6 @@
 $main_background_color: #1AA179;
 $button_color: #7749F8;
 $main_text_color: #3E3E3E;
-$main_max-width: 1100px;
 
 @mixin font($name, $size) {
     font-size: $size;

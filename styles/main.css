@@ -34,6 +34,7 @@
   width: 450px;
   font-size: 36px;
   font-family: "semiboldText";
+  color: #fff;
 }
 
 .home {
@@ -134,9 +135,6 @@
 .link__img_social {
   height: 50px;
   width: 50px;
-}
-.link__button {
-  color: #fff;
 }
 
 .body {
