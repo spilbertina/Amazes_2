@@ -2,7 +2,7 @@
     text-decoration: none;
 
     &__logo {
-        color: #fff;
+        color: $second_text_color_white;
         letter-spacing: 3px;
         @include font('semiboldText', 24px);
     }
@@ -11,7 +11,16 @@
         @include boxSize(50px, 50px);
     }
 
-    // &__button {
-    //     color: #fff;
-    // }
+    &__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $button_color;
+        border: none;
+        letter-spacing: 2px;
+        border-radius: 8px;
+        @include boxSize(450px, 90px);
+        @include font('semiboldText', 36px);
+        color: $second_text_color_white;
+    }
 }

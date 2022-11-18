@@ -3,9 +3,7 @@
 @import "./constans";
 
 @import "./header";
-// @import "./navigation";
 @import "./footer";
-@import "./buttons";
 @import "./pages/amazes_main";
 @import "./pages/amazes_select";
 @import "./link";
@@ -25,11 +23,9 @@
 }
 
 .content {
-    // max-width: 1100px;
     margin: 0 auto;
-    @include font('normalText', 1em);
-    // padding-left: 100px;
-    // padding-right: 100px;    
+    @include font('normalText', 1em);  
+    color: $main_text_color;
 }
 
 .paragraph {
