@@ -1,16 +1,32 @@
 .select {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto 0;
-    color: $main_text_color;
-    max-width: 1110px;
+    &__title {
+        margin: 0;
+        @include font('semiboldText', 30px);
+    }
+}
 
-    &__column {
-        margin-top: 100px;
-        margin-bottom: 100px;
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0 0;
+
+    &__lable {
+        margin: 0 auto 30px;
     }
 
-    &__title {
-        @include font('semiboldText', 30px);
+    &__steps {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__steps:last-of-type {
+        padding-bottom: 150px;
+    }
+    
+    .paragraph {
+        @include font('normalText', 0.8em);
+        padding-top: 10px;
     }
 }

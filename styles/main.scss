@@ -28,6 +28,13 @@
     color: $main_text_color;
 }
 
+.grid {
+    display: grid;
+    padding: 100px 100px 150px;
+    gap: 30px;
+    grid-template-columns: minmax(auto, 650px) auto;
+}
+
 .paragraph {
     margin: 0 0 24px 0;
 }

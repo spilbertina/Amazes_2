@@ -1,11 +1,4 @@
 .home {
-    padding: 100px 100px 150px;
-    display: grid;
-    gap: 30px;
-    grid-template-columns: minmax(auto, 650px) auto;
-    grid-template-areas: 
-    "home__column home__illustration";
-
     &__title {
         text-transform: uppercase;
         margin: 0 0 24px 0;
@@ -58,10 +51,6 @@
 }
 
 .motivation {
-    padding: 75px 100px 100px; 
-    display: grid;
-    grid-template-columns: auto minmax(auto, 627px);
-
     &__wrap {
         display: flex;
         flex-direction: column;

@@ -25,13 +25,6 @@
   max-width: 100%;
 }
 
-.home {
-  padding: 100px 100px 150px;
-  display: grid;
-  gap: 30px;
-  grid-template-columns: minmax(auto, 650px) auto;
-  grid-template-areas: "home__column home__illustration";
-}
 .home__title {
   text-transform: uppercase;
   margin: 0 0 24px 0;
@@ -78,11 +71,6 @@
   font-family: "boldText";
 }
 
-.motivation {
-  padding: 75px 100px 100px;
-  display: grid;
-  grid-template-columns: auto minmax(auto, 627px);
-}
 .motivation__wrap {
   display: flex;
   flex-direction: column;
@@ -96,20 +84,32 @@
   margin-bottom: 100px;
 }
 
-.select {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto 0;
-  color: #3E3E3E;
-  max-width: 1110px;
-}
-.select__column {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
 .select__title {
+  margin: 0;
   font-size: 30px;
   font-family: "semiboldText";
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 0 0;
+}
+.form__lable {
+  margin: 0 auto 30px;
+}
+.form__steps {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form__steps:last-of-type {
+  padding-bottom: 150px;
+}
+.form .paragraph {
+  font-size: 0.8em;
+  font-family: "normalText";
+  padding-top: 10px;
 }
 
 .link {
@@ -157,6 +157,13 @@
   font-size: 1em;
   font-family: "normalText";
   color: #3E3E3E;
+}
+
+.grid {
+  display: grid;
+  padding: 100px 100px 150px;
+  gap: 30px;
+  grid-template-columns: minmax(auto, 650px) auto;
 }
 
 .paragraph {
