@@ -1,4 +1,23 @@
 @import url(../fonts/montserrat.css);
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7749F8;
+  border: none;
+  letter-spacing: 2px;
+  border-radius: 8px;
+  height: 90px;
+  max-width: 450px;
+  font-size: 1.5em;
+  font-family: "semiboldText";
+  color: #fff;
+  cursor: pointer;
+}
+.button_big {
+  max-width: 100%;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -25,6 +44,9 @@
   max-width: 100%;
 }
 
+.home {
+  margin: 0 auto;
+}
 .home__title {
   text-transform: uppercase;
   margin: 0 0 24px 0;
@@ -56,7 +78,7 @@
   margin: 0 auto;
   color: #fff;
   background-color: #1AA179;
-  padding: 100px 0 120px;
+  padding: 100px 100px 120px;
 }
 .skills__title {
   padding-bottom: 40px;
@@ -89,14 +111,23 @@
   font-size: 30px;
   font-family: "semiboldText";
 }
+.select__pictures {
+  justify-self: center;
+  align-self: center;
+}
 
 .form {
   display: flex;
   flex-direction: column;
   padding: 60px 0 0;
+  max-width: 500px;
 }
 .form__lable {
   margin: 0 auto 30px;
+}
+.form__input {
+  cursor: pointer;
+  max-width: 100%;
 }
 .form__steps {
   display: flex;
@@ -105,11 +136,6 @@
 }
 .form__steps:last-of-type {
   padding-bottom: 150px;
-}
-.form .paragraph {
-  font-size: 0.8em;
-  font-family: "normalText";
-  padding-top: 10px;
 }
 
 .link {
@@ -124,20 +150,6 @@
 .link__img_social {
   height: 50px;
   width: 50px;
-}
-.link__button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #7749F8;
-  border: none;
-  letter-spacing: 2px;
-  border-radius: 8px;
-  height: 90px;
-  width: 450px;
-  font-size: 36px;
-  font-family: "semiboldText";
-  color: #fff;
 }
 
 .body {
@@ -162,10 +174,15 @@
 .grid {
   display: grid;
   padding: 100px 100px 150px;
-  gap: 30px;
+  gap: 50px;
   grid-template-columns: minmax(auto, 650px) auto;
 }
 
 .paragraph {
   margin: 0 0 24px 0;
+}
+.paragraph_small {
+  font-size: 0.8em;
+  font-family: "normalText";
+  padding-top: 10px;
 }/*# sourceMappingURL=main.css.map */

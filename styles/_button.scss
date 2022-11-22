@@ -1,0 +1,18 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $button_color;
+    border: none;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    height: 90px;
+    max-width: 450px;
+    @include font('semiboldText', 1.5em);
+    color: $second_text_color_white;
+    cursor: pointer;
+
+    &_big {
+        max-width: 100%;
+    }
+}

@@ -10,17 +10,4 @@
     &__img_social {
         @include boxSize(50px, 50px);
     }
-
-    &__button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: $button_color;
-        border: none;
-        letter-spacing: 2px;
-        border-radius: 8px;
-        @include boxSize(450px, 90px);
-        @include font('semiboldText', 36px);
-        color: $second_text_color_white;
-    }
 }

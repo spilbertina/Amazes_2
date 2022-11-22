@@ -2,6 +2,7 @@
 
 @import "./constans";
 
+@import "./button";
 @import "./header";
 @import "./footer";
 @import "./pages/amazes_main";
@@ -31,10 +32,15 @@
 .grid {
     display: grid;
     padding: 100px 100px 150px;
-    gap: 30px;
+    gap: 50px;
     grid-template-columns: minmax(auto, 650px) auto;
 }
 
 .paragraph {
     margin: 0 0 24px 0;
+
+    &_small {
+        @include font('normalText', 0.8em);
+        padding-top: 10px;
+    }  
 }
