@@ -7,4 +7,6 @@
     padding-left: 100px;
     padding-right: 100px;
     @include headerFooter(0 auto, $main_background_color, 100%);
+    position: sticky;
+    top: 0;
 }

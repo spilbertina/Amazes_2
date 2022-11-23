@@ -25,13 +25,14 @@
 
 .content {
     margin: 0 auto;
-    @include font('normalText', 1em);  
+    @include font('normalText', 1em);
     color: $main_text_color;
+    min-height: calc(100vh - 150px);
 }
 
 .grid {
     display: grid;
-    padding: 100px 100px 150px;
+    padding: 100px 100px 130px;
     gap: 50px;
     grid-template-columns: minmax(auto, 650px) auto;
 }
@@ -40,7 +41,12 @@
     margin: 0 0 24px 0;
 
     &_small {
-        @include font('normalText', 0.8em);
+        @include font('normalText', 0.7em);
         padding-top: 10px;
-    }  
+        cursor: pointer;
+    }
+
+    &_small:hover {
+        color: $button_color;
+    }
 }

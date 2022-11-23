@@ -11,6 +11,7 @@
     @include font('semiboldText', 1.5em);
     color: $second_text_color_white;
     cursor: pointer;
+    margin-top: auto;
 
     &_big {
         max-width: 100%;

@@ -1,7 +1,8 @@
 .select {
     &__title {
         margin: 0;
-        @include font('semiboldText', 30px);
+        @include font('semiboldText', 1.2em);
+        padding-bottom: 70px;
     }
 
     &__pictures {
@@ -13,25 +14,29 @@
 .form {
     display: flex;
     flex-direction: column;
-    padding: 60px 0 0;
+    // padding: 50px 0 0;
     max-width: 500px;
 
     &__lable {
-        margin: 0 auto 30px;
+        padding-bottom: 20px;
+        @include font('semiboldText', 0.8em);
     }
 
     &__input {
         cursor: pointer;
         max-width: 100%;
+        margin: 0;
     }
 
     &__steps {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        padding-bottom: 50px;
+        
     }
 
     &__steps:last-of-type {
-        padding-bottom: 150px;
+        padding-bottom: 100px;
     }
 }
